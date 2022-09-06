@@ -36,11 +36,11 @@
                     't' => 'V', 'v' => 'X', 'w' => 'Y', 'x' => 'Z', 'y' => 'A', 'z' => 'B',
                 );
 
-                $enkripsiP  = str_replace(array_keys($key), $key, $inputP);
+                $enkripsi  = str_replace(array_keys($key), $key, $inputP);
                 
                 echo "<br><h6>Kata yang Dienkripsi :</h6>", $inputP;
                 echo "<br>";
-                echo "<h6>Hasil dari Enkripsi :</h6>", $enkripsiP;
+                echo "<h6>Hasil dari Enkripsi :</h6>", $enkripsi;
             };
         ?> 
         <?php
