@@ -38,12 +38,12 @@
                 't' => 'V', 'v' => 'X', 'w' => 'Y', 'x' => 'Z', 'y' => 'A', 'z' => 'B',
             );
 
-            $enkripsiC  = str_replace($key, array_keys($key), $inputC);
+            $deskripsi  = str_replace($key, array_keys($key), $inputC);
 
             echo "<br><h6>Kata yang Dienkripsi :</h6>",  $inputC;
 
             echo "<br>";
-            echo "<h6>Hasil Deskripsi :</h6>", $enkripsiC;
+            echo "<h6>Hasil Deskripsi :</h6>", $deskripsi;
         };
         ?>
 
